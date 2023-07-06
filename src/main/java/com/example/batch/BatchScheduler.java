@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BatchScheduler {
 	
-	@Autowired
+    @Autowired
     private JobLauncher jobLauncher;
 
     @Autowired
